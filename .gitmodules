@@ -1,0 +1,3 @@
+[submodule "themes/lektor-theme-resume"]
+	path = themes/lektor-theme-resume
+	url = git@github.com:spacelis/lektor-theme-resume.git

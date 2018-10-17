@@ -1,0 +1,25 @@
+[project]
+  name = Meet Jie
+  themes = lektor-theme-resume
+
+[servers.ghpages]
+  default = yes
+  target = ghpages+https://jiejiang-jojo/jiejiang-jojo.github.io
+
+[theme_settings]
+  title = "Dr"
+  first_name = "Jie"
+  last_name = "Jiang"
+  name = "Jie Jiang"
+  position = "Research Fellow"
+  affiliation = "University of Surrey"
+  country = "UK"
+  email = "jie.jiang@surrey.ac.uk"
+  about = "info_about_you"
+  site = "jiejiang-jojo.github.io"
+  github_id = "jiejiang-jojo"
+  linkedin_url = "https://www.linkedin.com/in/jie-jiang-2870b529"
+  google_scholar_url = "https://scholar.google.com/citations?user=RTWu4e0AAAAJ"
+  profile_picture = "/img/profile.jpg"
+  google_analytics = "your_google_analytics_id"
+  comments = "no"

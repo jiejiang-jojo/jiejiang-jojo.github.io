@@ -1,0 +1,9 @@
+title: Predicting Appliance Usage Status In Home Like Environments
+---
+pub_date: 2018-09-27
+---
+author: Jie Jiang
+---
+body:
+
+Household activities nowadays heavily rely on electrical and electronic devices, the operation of which are largely reflected in the household energy usage. With the advance of sensor technology, smart meters are increasingly adopted in people's homes, which makes it easier to access finer-grained energy consumption data and more importantly enables the study of household activities via the patterns in energy consumption. In this paper, we investigate the application of $k$-nearest Neighbours algorithm ($k$-NN) and Convolutional Neutral Network (CNN) to predict whether specific appliances are being used (on/off status) at different times based on the total energy consumption of a whole house. The experiment results on three types of appliances in one household show that CNN in general achieves better performance than $k$-NN and both methods perform better on the appliances with relatively large energy consumption.
