@@ -11,6 +11,9 @@
         <span class="volume">{{ entry.volume }}{% if entry.number %}<span class="number">({{ entry.number }})</span>{% endif %} </span>
         <span class="pages">{{ entry.pages }} </span>
         <span class="year">({{ entry.year }})</span>
+        {%- if entry.category is defined %}
+        <span class="category">[<b>{{ entry.category }}</b>]</span>
+	{%- endif %}
         {%- if entry.file is defined %}
         <a href="/publications/{{ entry.file }}">pdf</a>
 	{%- endif %}
