@@ -4,7 +4,7 @@
 
 [servers.ghpages]
   default = yes
-  target = ghpages+https://jiejiang-jojo/jiejiang-jojo.github.io
+  target = ghpages+git@github.com:jiejiang-jojo/jiejiang-jojo.github.io.git
 
 [theme_settings]
   title = "Dr"
